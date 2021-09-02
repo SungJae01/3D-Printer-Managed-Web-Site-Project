@@ -34,15 +34,13 @@ Camp 51.9 3D 프린터 및 레이저커터실의 **3D프린터 8대**와 **이�
 
    재학생 팝업창은 **소속** 대신 **학번** 입력창
 
-![기능 1. 팝업창](C:\Github\HTML_Project\사진\기능 1. 팝업창.gif)
-
-
+![기능 1  팝업창](https://user-images.githubusercontent.com/88194064/131792745-f7d6c626-4eaa-432c-a4b6-3016d061748d.gif)
 
 **2. 프린터 사용 상태 표시**
 
    사용가능(READY), 사용완료(FINISH), 타이머 + 카카오톡 예약(영상 x)
 
-![기능 2. 프린터 상태 표시](C:\Github\HTML_Project\사진\기능 2. 프린터 상태 표시.gif)
+![기능 2  프린터 상태 표시](https://user-images.githubusercontent.com/88194064/131792975-b6849e50-a683-48a9-8f9d-62e22fabc556.gif)
 
 **3. 데이터베이스 정보 저장**
 
@@ -52,7 +50,7 @@ Camp 51.9 3D 프린터 및 레이저커터실의 **3D프린터 8대**와 **이�
 
    영상 참고
 
-![기능 2,3,4](C:\Github\HTML_Project\사진\기능 2,3,4.gif)
+![기능 2,3,4](https://user-images.githubusercontent.com/88194064/131792838-db9a57af-69aa-4621-82a8-6a1abd5c168e.gif)
 
 **5. 그 외**
 
@@ -61,12 +59,6 @@ Camp 51.9 3D 프린터 및 레이저커터실의 **3D프린터 8대**와 **이�
 + X 버튼 클릭시 form 태그 값 초기화
 + 비어있는 텍스트 박스가 있는 경우 알림 후 포커싱
 + 등등
-
-<video src="사진\기능 2,3,4.mp4"></video>
-
-
-
-
 
 ### 개요
 
@@ -296,9 +288,9 @@ setInterval(function(){
 }, 1000);
 ```
 
-<video src="사진\자바스크립트_타이머_2_.mp4"></video>
+![자바스크립트_타이머_2_](https://user-images.githubusercontent.com/88194064/131793368-23a07a52-2b08-4330-98ed-4204f8a94cad.gif)
 
-​                                                                       **실시간**으로 시간을 읽어 웹페이지에 나타내주는 것을 볼 수 있습니다.
+**실시간**으로 시간을 읽어 웹페이지에 나타내주는 것을 볼 수 있습니다.
 
 
 
