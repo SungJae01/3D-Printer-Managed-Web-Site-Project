@@ -1,6 +1,6 @@
 # Camp 51.9 (영등포고등학교 메이커 스페이스)
 
- 안녕하세요. 영등포고등학교 메이커스페이스 Camp51.9 메니저로 활동하고있습니다. 저는 장비 및 프로그램 관리를 하고있습니다.
+
 
 [Camp51.9 Information]: https://www.makeall.com/reservation/info.php?space_no=1677	"메이크올"
 [Camp51.9 Website]: https://camp.ydp.hs.kr/	"Camp51.9"
@@ -16,8 +16,8 @@
 [2020.01.25 ~ 2020.02.28 ]   완성 - 
 
 [Camp51.9 이용대장]: https://peaceful-euler-43deb6.netlify.app/	"3D 프린터 이용대장"
-
-### 결과물
+<details>
+<summary> <h3>:closed_book:  결과물</h3> </summary>
 
 #### 사용 사진
 
@@ -60,16 +60,16 @@ Camp 51.9 3D 프린터 및 레이저커터실의 **3D프린터 8대**와 **이�
 + X 버튼 클릭시 form 태그 값 초기화
 + 비어있는 텍스트 박스가 있는 경우 알림 후 포커싱
 + 등등
-
-### 개요
+</details>
+<details>
+<summary> <h3>:orange_book:  개요</h3> </summary>
 
  이번 겨울방학 동안 웹 프로그래밍을 한번 공부하고자 했습니다.  무언가를 직접 만들며 공부하는 것이 더 효율적이라고 생가각한 저는 목표를 정하였습니다. 목표를 정하는데 많은 시간이 들진 않았습니다. 사람들이 쓸 수 있는 사이트를 만들고 싶었고 완성도있는 웹 사이트를 만들어보고 싶었습니다. 기관의 3D 프린터실 이용대장은 사용자들이 손으로 직접 써서 이용해 왔습니다. 그러다보니 기관을 사용하는 학생들이 손으로 이용대장을 쓰기 번거롭고 수기로 쓰여지는 이용대장을 보는데 불편함이 있었습니다. 그 문제점을 해결하고자 이번 프로젝트를 진행 하였습니다.
-
-### 시작
+</details>
+<details>
+<summary> <h3>:ledger:  JavaScript</h3> </summary>
 
  이 글에서는 HTML과 CSS 말고 사이트에 사용된  JavaScript함수와 데이터베이스([firebase](https://firebase.google.com/)) 구글스프레트시트 API 등을 다루고자 합니다. 사이트를 만들기위해 먼저 여러가지 HTML 태그들을 공부했고 CSS는 유튜브나 [w3schools](https://www.w3schools.com/ )  를 참고하여 공부했습니다.
-
-### JavaScript
 
 #### JavaScript - 현재 시간 불러오기
 
@@ -83,31 +83,6 @@ console.log(today); //현재 시간을 콘솔창에 표시
 
 
 <img src="사진\자바스크립트_현재시간.png" alt="자바스크립트 안내" style="zoom:100%; float:left;" /> 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
 개발자 모드 콘솔창에 현재 시간이 나타나는 것을 볼 수 있습니다.
 
 ```javascript
@@ -117,32 +92,7 @@ var month0 = today.getMonth(); //월 불러오기
 
 
 <img src="사진\자바스크립트_월.png" style="zoom:100%; float:left;" /> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-제가 글을 쓰는 시간은 3월인데 콘솔 창에는 2라고 표시 되네요?
+제가 글을 쓰는 시간은 3월인데 콘솔 창에는 2라고 표시 됩니다.
 
  자바스크립트에서  월을 숫자로 표시하기때문에 0부터 시작합니다.
 
@@ -154,7 +104,7 @@ Mar. --> [2]
 
 ⁝
 
-변수에는 +1 을 하여 저장하면 되겠죠?
+변수에는 +1 을 하여 저장하면 되겠습니다.
 
 ##### 현재 연도 날짜 시간 나타내기
 
@@ -174,13 +124,7 @@ console.log(year + "/" + month + "/" + date + " - "
 
 <img src="사진\자바스크립트_0붙히기(1).png" style="zoom:150%; float:left;" /> 
 
-
-
-
-
-
-
-이렇게 현재시간을 콘솔창에 띄워 보았는데요. 
+이렇게 현재시간을 콘솔창에 띄워 보았습니다.
 
  사용자가 이용대장을 작성한 시간을 문서화 하기 위해 2021/3/29  15:27:6 대신에 한자리 수에는 0을 붙혀 나타내고 싶어졌습니다.  ex) 2021/03/29 - 15:27:06
 
@@ -202,15 +146,6 @@ console.log(second);
 
 
 <img src="사진\자바스크립트_0붙히기(2).png" alt="자바스크립트_0붙히기(2)" style="zoom:100%; float:left;" /> 
-
-
-
-
-
-
-
-
-
 한자리 일때 0이 잘 붙어나오는 것을 보실 수 있습니다. 
 
 날짜 시간에도 0을 붙혀주는 코드를 짜주면 보기 더욱 편하겠죠?
@@ -302,7 +237,10 @@ setTimeout()는 정해진 시간이 지나면 한번 실행시켜줍니다.
 ```javascript
 setTimeout(function(){ alert("Hello"); }, 3000);	//3초가 지나면 한번 실행
 ```
+</details>
 
+<details>
+<summary> <h3>:green_book:  Firebase</h3> </summary>
 ## Firebase
 
 [파이어베이스]: https://firebase.google.com/	"firebase"
