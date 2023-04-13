@@ -1,12 +1,7 @@
-# Camp 51.9 (영등포고등학교 메이커 스페이스)
+# Camp 51.9
+영등포고등학교 메이커 스페이스
 
-
-
-[Camp51.9 Information]: https://www.makeall.com/reservation/info.php?space_no=1677	"메이크올"
-[Camp51.9 Website]: https://camp.ydp.hs.kr/	"Camp51.9"
-[개인 포트폴리오]: https://sungjaesportfolio.netlify.app/	"Sungjae's Portfolio"
-
-
+[개인 포트폴리오](https://sungjaesportfolio.netlify.app "포트폴리오")
 
 ## 3D Printer Managed Web Site  Project
 
